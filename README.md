@@ -18,9 +18,9 @@ The script has the following optional parameters:
 
 You can run the script with custom parameters in your terminal as follows:
 
-\\\```powershell
+```powershell
 .\\script_name.ps1 -targets "domain1.com", "domain2.com" -folderPath "D:\\MyFolder" -timeoutBetweenPingsInSeconds 2 -numberOfPings 5 -pingTimeoutInSeconds 2
-\\\```
+```
 
 Replace `script_name.ps1` with the actual name of the script, and replace the parameter values with your desired settings. If you don't specify a parameter, the script will use its default value.
 
